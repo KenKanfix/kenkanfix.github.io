@@ -4,8 +4,8 @@
     "namespace": "android_app",
     "package_name": "io.github.kenkanfix.twa",
     "sha256_cert_fingerprints": [
-      "4A:E8:75:F2:C9:07:DC:60:DF:64:CD:99:51:8B:0F:2E:81:CF:20:93:7E:DD:0C:A3:DC:A7:68:35:20:E4:09:4C",
-      "C6:7B:33:F8:3B:7F:F2:64:6D:2B:6B:3E:C4:38:EB:36:5D:E7:DE:AA:1A:72:10:B5:B2:D3:2A:31:08:B4:F7:5B"
+      "C6:7B:33:F8:3B:7F:F2:64:6D:2B:6B:3E:C4:38:EB:36:5D:E7:DE:AA:1A:72:10:B5:B2:D3:2A:31:08:B4:F7:5B",
+      "A5:2F:FE:7C:31:29:34:EC:3A:98:DD:8A:F0:77:E9:39:5D:15:AC:24:07:48:39:DC:71:82:76:A4:4B:E5:5D:04"
     ]
   }
 }]
