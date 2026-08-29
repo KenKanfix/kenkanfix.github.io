@@ -1,3 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <text y="0.9em" font-size="80">🐉</text>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="36%" r="90%">
+      <stop offset="0%" stop-color="#ff7a3d"/>
+      <stop offset="55%" stop-color="#e64a19"/>
+      <stop offset="100%" stop-color="#a82f0d"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffedb8"/>
+      <stop offset="55%" stop-color="#ffca6b"/>
+      <stop offset="100%" stop-color="#ff9d2e"/>
+    </linearGradient>
+    <mask id="crescentMask">
+      <circle cx="435" cy="590" r="126" fill="#ffffff"/>
+      <circle cx="498" cy="653" r="126" fill="#000000"/>
+    </mask>
+  </defs>
+
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <circle cx="512" cy="512" r="340" fill="url(#glow)"/>
+
+  <g stroke="#ffffff">
+    <circle cx="512" cy="512" r="330" stroke-width="38"/>
+    <circle cx="512" cy="512" r="262" stroke-width="10" opacity="0.7"/>
+    <g stroke-width="22">
+      <line x1="722" y1="512" x2="842" y2="512"/>
+      <line x1="693.9" y1="617" x2="797.8" y2="677"/>
+      <line x1="617" y1="693.9" x2="677" y2="797.8"/>
+      <line x1="512" y1="722" x2="512" y2="842"/>
+      <line x1="407" y1="693.9" x2="347" y2="797.8"/>
+      <line x1="330.1" y1="617" x2="226.2" y2="677"/>
+      <line x1="302" y1="512" x2="182" y2="512"/>
+      <line x1="330.1" y1="407" x2="226.2" y2="347"/>
+      <line x1="407" y1="330.1" x2="347" y2="226.2"/>
+      <line x1="512" y1="302" x2="512" y2="182"/>
+      <line x1="617" y1="330.1" x2="677" y2="226.2"/>
+      <line x1="693.9" y1="407" x2="797.8" y2="347"/>
+    </g>
+  </g>
+
+  <circle cx="512" cy="512" r="205" fill="#ffffff"/>
+  <circle cx="512" cy="512" r="205" stroke="#ef6c33" stroke-width="12"/>
+
+  <circle cx="435" cy="590" r="126" fill="url(#gold)" mask="url(#crescentMask)"/>
+  <circle cx="435" cy="590" r="126" stroke="#f07f33" stroke-width="10" opacity="0.4"/>
+
+  <g stroke="url(#gold)" stroke-width="16" stroke-linecap="round">
+    <line x1="663" y1="400" x2="679" y2="400"/>
+    <line x1="648.9" y1="433.9" x2="660.3" y2="445.3"/>
+    <line x1="615" y1="448" x2="615" y2="464"/>
+    <line x1="581.1" y1="433.9" x2="569.7" y2="445.3"/>
+    <line x1="567" y1="400" x2="551" y2="400"/>
+    <line x1="581.1" y1="366.1" x2="569.7" y2="354.7"/>
+    <line x1="615" y1="352" x2="615" y2="336"/>
+    <line x1="648.9" y1="366.1" x2="660.3" y2="354.7"/>
+  </g>
+  <circle cx="615" cy="400" r="44" fill="url(#gold)"/>
 </svg>
